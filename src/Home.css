@@ -1,0 +1,96 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #007bff;
+  padding: 20px 0;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.header p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+}
+
+.card h2 {
+  margin: 0;
+  color: #333;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.check-answer-button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  outline: none;
+}
+
+.check-answer-button:hover {
+  background-color: #0056b3;
+}
+
+.answer {
+  margin-top: 20px;
+  color: #555;
+  font-size: 20px;
+  font-style: italic;
+}
+
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  color: #555;
+  border-top: 2px solid #007bff; /* Add border to the top */
+  border-bottom: 2px solid #007bff; /* Add border to the bottom */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+.separator {
+  margin: 0 10px;
+  background-color: #007bff;
+  width: 1px;
+  height: 12px;
+}
